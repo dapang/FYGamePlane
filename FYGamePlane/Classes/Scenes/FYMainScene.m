@@ -32,6 +32,7 @@
 @property (strong, nonatomic) SKSpriteNode *bg2;
 
 @property (strong, nonatomic) SKNode *myPlaneNode;
+@property (strong, nonatomic) UIButton *pauseButton;
 
 @property (strong, nonatomic) SKSpriteNode *bullet;
 @property (assign, nonatomic) float bulletSpeed;
@@ -117,6 +118,16 @@
     /* 不使用 CADisplayLink */
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0/100.0 target:self selector:@selector(mainLoop) userInfo:nil repeats:YES];
     
+}
+
+/**
+ *
+ *  暂停游戏
+ *
+ */
+- (void)pauseGame
+{
+    self.paused = YES;
 }
 
 /**
@@ -300,19 +311,20 @@
     }
     if ((contact.bodyA.categoryBitMask == kMyPlaneMask && contact.bodyB.categoryBitMask == kEnemyPlaneMask) || (contact.bodyB.categoryBitMask == kMyPlaneMask && contact.bodyA.categoryBitMask == kEnemyPlaneMask))
     {
+        [self.timer invalidate];
+        self.timer = nil;
         [contact.bodyB.node runAction:[SKAction removeFromParent]];
         [contact.bodyA.node runAction:[SKAction removeFromParent]];
         [self boombByPositionX:contact.bodyA.node.position.x positionY:contact.bodyA.node.position.y];
         [self boombByPositionX:contact.bodyB.node.position.x positionY:contact.bodyB.node.position.y];
         
         [self removeActionForKey:@"shootAction"];
-        [self.timer invalidate];
-        self.timer = nil;
+        
         [FYData shareData].yourScore = self.score;
         [FYData shareData].yourTime = (int)self.playtime/100;
         
         SKAction *gotoResultAction = [SKAction runBlock:^{
-            SKTransition *reveal = [SKTransition fadeWithDuration:2.0];
+            SKTransition *reveal = [SKTransition fadeWithDuration:1.0];
             SKScene *scene = [FYResultScene sceneWithSize:self.size];
             [self.view presentScene:scene transition:reveal];
         }];
