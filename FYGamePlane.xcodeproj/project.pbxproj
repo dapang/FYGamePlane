@@ -8,23 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C75E4B9C18A5BA33008FF5A4 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B7618A5BA33008FF5A4 /* pause.png */; };
-		C75E4B9D18A5BA33008FF5A4 /* myplanebomb4.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B7718A5BA33008FF5A4 /* myplanebomb4.png */; };
-		C75E4B9E18A5BA33008FF5A4 /* myplanebomb3.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B7818A5BA33008FF5A4 /* myplanebomb3.png */; };
-		C75E4B9F18A5BA33008FF5A4 /* myplanebomb2.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B7918A5BA33008FF5A4 /* myplanebomb2.png */; };
-		C75E4BA018A5BA33008FF5A4 /* myplanebomb1.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B7A18A5BA33008FF5A4 /* myplanebomb1.png */; };
-		C75E4BA118A5BA33008FF5A4 /* enemybomb4.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B7B18A5BA33008FF5A4 /* enemybomb4.png */; };
-		C75E4BA218A5BA33008FF5A4 /* enemybomb3.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B7C18A5BA33008FF5A4 /* enemybomb3.png */; };
-		C75E4BA318A5BA33008FF5A4 /* enemybomb2.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B7D18A5BA33008FF5A4 /* enemybomb2.png */; };
-		C75E4BA418A5BA33008FF5A4 /* enemybomb1.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B7E18A5BA33008FF5A4 /* enemybomb1.png */; };
-		C75E4BA518A5BA33008FF5A4 /* enemybomb3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B7F18A5BA33008FF5A4 /* enemybomb3@2x.png */; };
-		C75E4BA618A5BA33008FF5A4 /* enemybomb1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8018A5BA33008FF5A4 /* enemybomb1@2x.png */; };
-		C75E4BA718A5BA33008FF5A4 /* enemybomb2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8118A5BA33008FF5A4 /* enemybomb2@2x.png */; };
-		C75E4BA818A5BA33008FF5A4 /* enemybomb4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8218A5BA33008FF5A4 /* enemybomb4@2x.png */; };
 		C75E4BA918A5BA33008FF5A4 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8318A5BA33008FF5A4 /* pause@2x.png */; };
-		C75E4BAA18A5BA33008FF5A4 /* myplanebomb3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8418A5BA33008FF5A4 /* myplanebomb3@2x.png */; };
-		C75E4BAB18A5BA33008FF5A4 /* myplanebomb1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8518A5BA33008FF5A4 /* myplanebomb1@2x.png */; };
-		C75E4BAC18A5BA33008FF5A4 /* myplanebomb2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8618A5BA33008FF5A4 /* myplanebomb2@2x.png */; };
-		C75E4BAD18A5BA33008FF5A4 /* myplanebomb4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8718A5BA33008FF5A4 /* myplanebomb4@2x.png */; };
 		C75E4BAE18A5BA33008FF5A4 /* enemypropeller2.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8818A5BA33008FF5A4 /* enemypropeller2.png */; };
 		C75E4BAF18A5BA33008FF5A4 /* enemypropeller1.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8918A5BA33008FF5A4 /* enemypropeller1.png */; };
 		C75E4BB018A5BA33008FF5A4 /* propeller2.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E4B8A18A5BA33008FF5A4 /* propeller2.png */; };
@@ -79,23 +63,7 @@
 
 /* Begin PBXFileReference section */
 		C75E4B7618A5BA33008FF5A4 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
-		C75E4B7718A5BA33008FF5A4 /* myplanebomb4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myplanebomb4.png; sourceTree = "<group>"; };
-		C75E4B7818A5BA33008FF5A4 /* myplanebomb3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myplanebomb3.png; sourceTree = "<group>"; };
-		C75E4B7918A5BA33008FF5A4 /* myplanebomb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myplanebomb2.png; sourceTree = "<group>"; };
-		C75E4B7A18A5BA33008FF5A4 /* myplanebomb1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myplanebomb1.png; sourceTree = "<group>"; };
-		C75E4B7B18A5BA33008FF5A4 /* enemybomb4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemybomb4.png; sourceTree = "<group>"; };
-		C75E4B7C18A5BA33008FF5A4 /* enemybomb3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemybomb3.png; sourceTree = "<group>"; };
-		C75E4B7D18A5BA33008FF5A4 /* enemybomb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemybomb2.png; sourceTree = "<group>"; };
-		C75E4B7E18A5BA33008FF5A4 /* enemybomb1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemybomb1.png; sourceTree = "<group>"; };
-		C75E4B7F18A5BA33008FF5A4 /* enemybomb3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemybomb3@2x.png"; sourceTree = "<group>"; };
-		C75E4B8018A5BA33008FF5A4 /* enemybomb1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemybomb1@2x.png"; sourceTree = "<group>"; };
-		C75E4B8118A5BA33008FF5A4 /* enemybomb2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemybomb2@2x.png"; sourceTree = "<group>"; };
-		C75E4B8218A5BA33008FF5A4 /* enemybomb4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemybomb4@2x.png"; sourceTree = "<group>"; };
 		C75E4B8318A5BA33008FF5A4 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
-		C75E4B8418A5BA33008FF5A4 /* myplanebomb3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myplanebomb3@2x.png"; sourceTree = "<group>"; };
-		C75E4B8518A5BA33008FF5A4 /* myplanebomb1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myplanebomb1@2x.png"; sourceTree = "<group>"; };
-		C75E4B8618A5BA33008FF5A4 /* myplanebomb2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myplanebomb2@2x.png"; sourceTree = "<group>"; };
-		C75E4B8718A5BA33008FF5A4 /* myplanebomb4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myplanebomb4@2x.png"; sourceTree = "<group>"; };
 		C75E4B8818A5BA33008FF5A4 /* enemypropeller2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemypropeller2.png; sourceTree = "<group>"; };
 		C75E4B8918A5BA33008FF5A4 /* enemypropeller1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemypropeller1.png; sourceTree = "<group>"; };
 		C75E4B8A18A5BA33008FF5A4 /* propeller2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = propeller2.png; sourceTree = "<group>"; };
@@ -309,23 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				C75E4B7618A5BA33008FF5A4 /* pause.png */,
-				C75E4B7718A5BA33008FF5A4 /* myplanebomb4.png */,
-				C75E4B7818A5BA33008FF5A4 /* myplanebomb3.png */,
-				C75E4B7918A5BA33008FF5A4 /* myplanebomb2.png */,
-				C75E4B7A18A5BA33008FF5A4 /* myplanebomb1.png */,
-				C75E4B7B18A5BA33008FF5A4 /* enemybomb4.png */,
-				C75E4B7C18A5BA33008FF5A4 /* enemybomb3.png */,
-				C75E4B7D18A5BA33008FF5A4 /* enemybomb2.png */,
-				C75E4B7E18A5BA33008FF5A4 /* enemybomb1.png */,
-				C75E4B7F18A5BA33008FF5A4 /* enemybomb3@2x.png */,
-				C75E4B8018A5BA33008FF5A4 /* enemybomb1@2x.png */,
-				C75E4B8118A5BA33008FF5A4 /* enemybomb2@2x.png */,
-				C75E4B8218A5BA33008FF5A4 /* enemybomb4@2x.png */,
 				C75E4B8318A5BA33008FF5A4 /* pause@2x.png */,
-				C75E4B8418A5BA33008FF5A4 /* myplanebomb3@2x.png */,
-				C75E4B8518A5BA33008FF5A4 /* myplanebomb1@2x.png */,
-				C75E4B8618A5BA33008FF5A4 /* myplanebomb2@2x.png */,
-				C75E4B8718A5BA33008FF5A4 /* myplanebomb4@2x.png */,
 				C75E4B8818A5BA33008FF5A4 /* enemypropeller2.png */,
 				C75E4B8918A5BA33008FF5A4 /* enemypropeller1.png */,
 				C75E4B8A18A5BA33008FF5A4 /* propeller2.png */,
@@ -437,41 +389,25 @@
 				C75E4BB018A5BA33008FF5A4 /* propeller2.png in Resources */,
 				C75E4BB518A5BA33008FF5A4 /* propeller2@2x.png in Resources */,
 				C7DB6B1518A4D15600315A80 /* Main.storyboard in Resources */,
-				C75E4B9D18A5BA33008FF5A4 /* myplanebomb4.png in Resources */,
 				C75E4BB418A5BA33008FF5A4 /* enemypropeller2@2x.png in Resources */,
 				C75E4BB618A5BA33008FF5A4 /* bullet.png in Resources */,
-				C75E4B9E18A5BA33008FF5A4 /* myplanebomb3.png in Resources */,
-				C75E4BA518A5BA33008FF5A4 /* enemybomb3@2x.png in Resources */,
 				C75E4BC018A5BA33008FF5A4 /* cloud@2x.png in Resources */,
-				C75E4BA118A5BA33008FF5A4 /* enemybomb4.png in Resources */,
-				C75E4B9F18A5BA33008FF5A4 /* myplanebomb2.png in Resources */,
 				C75E4BB118A5BA33008FF5A4 /* propeller1.png in Resources */,
-				C75E4BA718A5BA33008FF5A4 /* enemybomb2@2x.png in Resources */,
 				C75E4BB318A5BA33008FF5A4 /* enemypropeller1@2x.png in Resources */,
 				C75E4BA918A5BA33008FF5A4 /* pause@2x.png in Resources */,
 				C75E4BBF18A5BA33008FF5A4 /* bg.png in Resources */,
 				C75E4BF218A610F7008FF5A4 /* bombParticle.sks in Resources */,
-				C75E4BA418A5BA33008FF5A4 /* enemybomb1.png in Resources */,
-				C75E4BA018A5BA33008FF5A4 /* myplanebomb1.png in Resources */,
-				C75E4BA218A5BA33008FF5A4 /* enemybomb3.png in Resources */,
 				C75E4BB818A5BA33008FF5A4 /* enemyplane1.png in Resources */,
-				C75E4BA618A5BA33008FF5A4 /* enemybomb1@2x.png in Resources */,
-				C75E4BA318A5BA33008FF5A4 /* enemybomb2.png in Resources */,
 				C75E4BB918A5BA33008FF5A4 /* myplane.png in Resources */,
 				C7DB6B1618A4D15600315A80 /* InfoPlist.strings in Resources */,
 				C75E4BBB18A5BA33008FF5A4 /* bullet@2x.png in Resources */,
 				C75E4BB218A5BA33008FF5A4 /* propeller1@2x.png in Resources */,
-				C75E4BAD18A5BA33008FF5A4 /* myplanebomb4@2x.png in Resources */,
 				C75E4BAE18A5BA33008FF5A4 /* enemypropeller2.png in Resources */,
 				C75E4BBE18A5BA33008FF5A4 /* cloud.png in Resources */,
 				C75E4BBD18A5BA33008FF5A4 /* enemyplane1@2x.png in Resources */,
 				C75E4BAF18A5BA33008FF5A4 /* enemypropeller1.png in Resources */,
-				C75E4BA818A5BA33008FF5A4 /* enemybomb4@2x.png in Resources */,
-				C75E4BAC18A5BA33008FF5A4 /* myplanebomb2@2x.png in Resources */,
 				C75E4BB718A5BA33008FF5A4 /* enemyplane2.png in Resources */,
 				C75E4BF718A61C30008FF5A4 /* bomb.png in Resources */,
-				C75E4BAB18A5BA33008FF5A4 /* myplanebomb1@2x.png in Resources */,
-				C75E4BAA18A5BA33008FF5A4 /* myplanebomb3@2x.png in Resources */,
 				C75E4BBC18A5BA33008FF5A4 /* enemyplane2@2x.png in Resources */,
 				C75E4B9C18A5BA33008FF5A4 /* pause.png in Resources */,
 				C75E4BBA18A5BA33008FF5A4 /* myplane@2x.png in Resources */,
